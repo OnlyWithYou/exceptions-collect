@@ -1,0 +1,20 @@
+{
+  "name": "cat-exceptions-collect",
+  "version": "1.0.0",
+  "description": "a server for parsing exceptions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js "
+  },
+  "author": "Silin WANG",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-request": "^1.0.0",
+    "koa-router": "^7.3.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "source-map": "^0.7.0"
+  }
+}
