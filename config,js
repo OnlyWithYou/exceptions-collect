@@ -1,0 +1,15 @@
+/* 
+ *  基础项目配置文件
+*/
+
+module.exports = {
+    // 监听端口
+    port: 3000,
+
+    // .map文件所在的目录地址（常为项目编译后生成的dist目录下的js目录）
+    mapFilesPath: '../../../work/harbour/eshipping-projects/eshipping-harbour-web/dist/js',
+
+    // CAT接口域名
+    targetDomain: 'http://qa.new.carrierglobe.com'
+};
+
